@@ -21,7 +21,6 @@ const isLocalhost = Boolean((
 const registerValidSW = (swUrl, config) => {
   navigator.serviceWorker
     .register(swUrl)
-    // TODO: Reduce cognitive complexity here
     // eslint-disable-next-line sonarjs/cognitive-complexity
     .then(registration => {
       registration.onupdatefound = () => {
