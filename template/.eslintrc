@@ -2,22 +2,17 @@
   "extends": ["@bence.a.toth/eslint-config"],
   "overrides": [
     {
-      // Don't expect entry point to be imported.
-      "files": [
-        "src/index.js"
-      ],
+      // Don't expect entry point to get imported.
+      "files": ["src/index.js"],
       "rules": {
         "import/no-unused-modules": 0,
         "react/jsx-filename-extension": 0
       }
     },
     {
-      // Don't expect test files to be imported.
+      // Don't expect test files to get imported.
       // Allow the usage of JSX in test files.
-      "files": [
-        "*.test.js",
-        "setupTests.js"
-      ],
+      "files": ["*.test.js", "setupTests.js"],
       "rules": {
         "import/no-unused-modules": 0,
         "import/no-unassigned-import": 0,
@@ -31,6 +26,13 @@
         "no-param-reassign": 0,
         "fp/no-mutation": 0,
         "no-console": 0,
+        "import/no-unused-modules": 0
+      }
+    },
+    {
+      // Don't expect config files to get imported.
+      "files": ["stylelint.config.js"],
+      "rules": {
         "import/no-unused-modules": 0
       }
     }
