@@ -12,7 +12,9 @@
       "stylelint-config-standard": "^20.0.0"
     },
     "scripts": {
-      "eslint": "eslint --ext .js,.jsx ."
+      "eslint": "eslint --ext .js,.jsx .",
+      "stylelint": "stylelint \"./src/**/*.css\"",
+      "lint": "npm run eslint ; npm run stylelint"
     }
   }
 }
