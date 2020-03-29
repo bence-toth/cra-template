@@ -11,6 +11,40 @@
     },
     "scripts": {
       "eslint": "eslint --ext .js,.jsx ."
+    },
+    "eslintConfig": {
+      "extends": ["@bence.a.toth/eslint-config"],
+      "overrides": [
+        {
+          "files": [
+            "src/index.js"
+          ],
+          "rules": {
+            "import/no-unused-modules": 0,
+            "react/jsx-filename-extension": 0
+          }
+        },
+        {
+          "files": [
+            "*.test.js",
+            "setupTests.js"
+          ],
+          "rules": {
+            "import/no-unused-modules": 0,
+            "import/no-unassigned-import": 0,
+            "react/jsx-filename-extension": 0
+          }
+        },
+        {
+          "files": ["serviceWorker.js"],
+          "rules": {
+            "no-param-reassign": 0,
+            "fp/no-mutation": 0,
+            "no-console": 0,
+            "import/no-unused-modules": 0
+          }
+        }
+      ]
     }
   }
 }
