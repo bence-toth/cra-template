@@ -14,7 +14,10 @@
     {
       // Don't expect test files to be imported.
       // Allow the usage of JSX in test files.
-      "files": ["*.test.js"],
+      "files": [
+        "*.test.js",
+        "setupTests.js"
+      ],
       "rules": {
         "import/no-unused-modules": 0,
         "import/no-unassigned-import": 0,
