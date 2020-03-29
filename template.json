@@ -15,7 +15,8 @@
     "scripts": {
       "eslint": "eslint --ext .js,.jsx .",
       "stylelint": "stylelint \"./src/**/*.css\"",
-      "lint": "npm run eslint ; npm run stylelint"
+      "proofread": "alex",
+      "lint": "npm run eslint ; npm run stylelint ; npm run proofread"
     }
   }
 }
