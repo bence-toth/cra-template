@@ -19,7 +19,8 @@
       "eslint": "eslint --ext .js,.jsx .",
       "stylelint": "stylelint \"./src/**/*.css\"",
       "proofread": "alex",
-      "lint": "npm run eslint ; npm run stylelint ; npm run proofread"
+      "lint": "npm run eslint ; npm run stylelint ; npm run proofread",
+      "update": "npm-check -u"
     }
   }
 }
