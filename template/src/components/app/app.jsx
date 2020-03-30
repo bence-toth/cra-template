@@ -1,4 +1,5 @@
 import React from 'react'
+import classNames from 'classnames'
 
 import './app.css'
 
@@ -13,7 +14,7 @@ const App = () => (
         and save to reload.
       </p>
       <a
-        className='link'
+        className={classNames('link', 'external')}
         href='https://reactjs.org'
         target='_blank'
         rel='noopener noreferrer'
