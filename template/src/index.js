@@ -14,6 +14,10 @@ ReactDOM.render(
 )
 
 // If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
+// unregister() to register() below, then remove the line that reads
+// `"!src/serviceWorker.js",` in the `package.json` file
+// at `jest.collectCoverageFrom`.
+//
+// Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 unregister()
