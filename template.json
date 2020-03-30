@@ -19,10 +19,10 @@
     "scripts": {
       "test:coverage": "npm test -- --coverage --watchAll=false",
       "test:gui": "majestic",
+      "lint": "npm run eslint ; npm run stylelint ; npm run proofread",
       "eslint": "eslint --ext .js,.jsx .",
       "stylelint": "stylelint \"./src/**/*.css\"",
       "proofread": "alex",
-      "lint": "npm run eslint ; npm run stylelint ; npm run proofread",
       "update": "npm-check -u"
     },
     "jest": {
