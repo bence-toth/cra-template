@@ -1,5 +1,6 @@
 import React from 'react'
-import classNames from 'classnames'
+
+import ExternalLink from '../externalLink/externalLink'
 
 import './app.css'
 
@@ -13,14 +14,11 @@ const App = () => (
         {' '}
         and save to reload.
       </p>
-      <a
-        className={classNames('link', 'external')}
-        href='https://reactjs.org'
-        target='_blank'
-        rel='noopener noreferrer'
+      <ExternalLink
+        url='https://reactjs.org'
       >
         Learn React
-      </a>
+      </ExternalLink>
     </header>
   </div>
 )
