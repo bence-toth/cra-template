@@ -24,6 +24,23 @@
       "proofread": "alex",
       "lint": "npm run eslint ; npm run stylelint ; npm run proofread",
       "update": "npm-check -u"
+    },
+    "jest": {
+      "collectCoverageFrom": [
+        "src/**/*.{js,jsx,ts,tsx}",
+        "!src/index.js",
+        "!src/serviceWorker.js",
+        "!<rootDir>/node_modules/",
+        "!<rootDir>/path/to/dir/"
+      ],
+      "coverageThreshold": {
+        "global": {
+          "branches": 0,
+          "functions": 0,
+          "lines": 0,
+          "statements": 0
+        }
+      }
     }
   }
 }
