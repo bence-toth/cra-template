@@ -17,6 +17,7 @@
       "stylelint-config-standard": "^20.0.0"
     },
     "scripts": {
+      "test:coverage": "npm test -- --coverage --watchAll=false",
       "test:gui": "majestic",
       "eslint": "eslint --ext .js,.jsx .",
       "stylelint": "stylelint \"./src/**/*.css\"",
