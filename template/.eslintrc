@@ -1,9 +1,16 @@
 {
-  "extends": ["@bence.a.toth/eslint-config"],
+  "extends": [
+    "@bence.a.toth/eslint-config"
+  ],
+  "ignorePatterns": [
+    "coverage/"
+  ],
   "overrides": [
     {
       // Don't expect entry point to get imported.
-      "files": ["src/index.js"],
+      "files": [
+        "src/index.js"
+      ],
       "rules": {
         "import/no-unused-modules": 0,
         "react/jsx-filename-extension": 0
@@ -12,7 +19,10 @@
     {
       // Don't expect test files to get imported.
       // Allow the usage of JSX in test files.
-      "files": ["*.test.js", "setupTests.js"],
+      "files": [
+        "*.test.js",
+        "setupTests.js"
+      ],
       "rules": {
         "import/no-unused-modules": 0,
         "import/no-unassigned-import": 0,
@@ -21,7 +31,9 @@
     },
     {
       // Disabled some rules for the service worker
-      "files": ["serviceWorker.js"],
+      "files": [
+        "serviceWorker.js"
+      ],
       "rules": {
         "no-param-reassign": 0,
         "fp/no-mutation": 0,
@@ -31,7 +43,9 @@
     },
     {
       // Don't expect config files to get imported.
-      "files": ["stylelint.config.js"],
+      "files": [
+        "stylelint.config.js"
+      ],
       "rules": {
         "import/no-unused-modules": 0
       }

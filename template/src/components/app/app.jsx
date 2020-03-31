@@ -6,7 +6,7 @@ import './app.css'
 
 const App = () => (
   <div className='app'>
-    <header className='header'>
+    <div className='content'>
       <p>
         Edit
         {' '}
@@ -19,7 +19,7 @@ const App = () => (
       >
         Learn React
       </ExternalLink>
-    </header>
+    </div>
   </div>
 )
 
