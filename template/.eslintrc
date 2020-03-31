@@ -3,7 +3,7 @@
   "ignorePatterns": ["coverage/"],
   "overrides": [
     {
-      // Don't expect entry point to be imported.
+      // Don't expect entry point to get imported.
       "files": [
         "src/index.js"
       ],
@@ -13,7 +13,7 @@
       }
     },
     {
-      // Don't expect test files to be imported.
+      // Don't expect test files to get imported.
       // Allow the usage of JSX in test files.
       "files": [
         "*.test.js",
@@ -38,7 +38,7 @@
       }
     },
     {
-      // Don't expect config files to be imported.
+      // Don't expect config files to get imported.
       "files": [
         "stylelint.config.js"
       ],
