@@ -17,19 +17,6 @@
       }
     },
     {
-      // Don't expect test files to get imported.
-      // Allow the usage of JSX in test files.
-      "files": [
-        "*.test.js",
-        "setupTests.js"
-      ],
-      "rules": {
-        "import/no-unused-modules": 0,
-        "import/no-unassigned-import": 0,
-        "react/jsx-filename-extension": 0
-      }
-    },
-    {
       // Disabled some rules for the service worker
       "files": [
         "serviceWorker.js"
@@ -50,7 +37,19 @@
         "import/no-unused-modules": 0
       }
     },
-    ,
+    {
+      // Don't expect test files to get imported.
+      // Allow the usage of JSX in test files.
+      "files": [
+        "*.test.js",
+        "setupTests.js"
+      ],
+      "rules": {
+        "import/no-unused-modules": 0,
+        "import/no-unassigned-import": 0,
+        "react/jsx-filename-extension": 0
+      }
+    },
     {
       // The cypress folder is somewhat special
       "files": [
