@@ -1,6 +1,10 @@
 {
-  "extends": ["@bence.a.toth/eslint-config"],
-  "ignorePatterns": ["coverage/"],
+  "extends": [
+    "@bence.a.toth/eslint-config"
+  ],
+  "ignorePatterns": [
+    "coverage/"
+  ],
   "overrides": [
     {
       // Don't expect entry point to get imported.
