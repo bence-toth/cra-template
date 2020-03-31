@@ -1,3 +1,12 @@
+/* Set margin, padding to 0, and box sizing to `border-box` for all elements */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
 body {
   font-family:
     -apple-system,
