@@ -1,5 +1,4 @@
 body {
-  margin: 0;
   font-family:
     -apple-system,
     BlinkMacSystemFont,
@@ -12,10 +11,19 @@ body {
     'Droid Sans',
     'Helvetica Neue',
     sans-serif;
+  scroll-behavior: smooth;
+  line-height: 1;
+  box-sizing: border-box;
+
+  /*
+    Font-smoothing is a non-standard feature. Read more:
+    https://developer.mozilla.org/en-US/docs/Web/CSS/font-smooth
+  */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Set monospace font for <code> elements */
 code {
   font-family:
     source-code-pro,
