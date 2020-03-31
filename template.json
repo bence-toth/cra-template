@@ -10,6 +10,7 @@
     "devDependencies": {
       "@bence.a.toth/eslint-config": "^1.0.14",
       "alex": "^8.1.1",
+      "cypress": "^4.3.0",
       "eslint": "^6.8.0",
       "majestic": "^1.6.2",
       "npm-check": "^5.9.2",
