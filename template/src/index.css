@@ -7,6 +7,14 @@
   box-sizing: inherit;
 }
 
+/* Defaults height for the <html> and <body> elements, and application root. */
+html,
+body,
+#root {
+  height: 100%;
+}
+
+/* Set body defaults */
 body {
   font-family:
     -apple-system,
