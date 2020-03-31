@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) using [`@bence.a.toth/cra-template`](TODO:).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) using [`@bence.a.toth/cra-template`](https://github.com/bence-toth/cra-template#readme).
 
 
 ## Available Scripts
