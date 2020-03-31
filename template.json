@@ -20,6 +20,8 @@
     "scripts": {
       "test:coverage": "npm test -- --coverage --watchAll=false",
       "test:gui": "majestic",
+      "cypress": "node_modules/.bin/cypress open",
+      "cypress:ci": "node_modules/.bin/cypress run",
       "lint": "npm run eslint ; npm run stylelint ; npm run proofread",
       "eslint": "eslint --ext .js,.jsx .",
       "stylelint": "stylelint \"./src/**/*.css\"",
