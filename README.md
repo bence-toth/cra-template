@@ -37,7 +37,9 @@ For more info, please check the [Create React App documentation](https://create-
 
 ## Contributing
 
-TODO:
+If something doesn’t work, please [file an issue](https://github.com/bence-toth/cra-template/issues).
+
+If you have questions, need help, or would like to contribute, please reach out at [tothab@gmail.com](mailto:tothab@gmail.com).
 
 
 ## License
