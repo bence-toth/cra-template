@@ -26,7 +26,7 @@ For more info, please check the [Create React App documentation](https://create-
 
 - [Cypress](https://www.cypress.io/) for integration and functional tests
 
-- [Majestic](https://github.com/Raathigesh/majestic#readme), a beautiful browser-based UI for your test runner for Jest
+- [Majestic](https://github.com/Raathigesh/majestic#readme), a beautiful browser-based UI for Jest
 
 - [ESLint](https://eslint.org/) and [StyleLint](https://stylelint.io/) configured for code consistency and many good practices
 
