@@ -18,18 +18,21 @@ For more info, please check the [Create React App documentation](https://create-
 
 ## What’s included?
 
-TODO:
-- everything you have in the default template
-- cypress
-- eslint with @bence.a.toth/eslint-config
-- stylelint with stylelint-config-standard
-- alex
-- classnames
-- prop-types
-- npm-check
-- majestic
-- https by default
-- a bit nicer folder structure
+- everything you have in the default template, with a somewhat nicer folder structure
+
+- HTTPS enabled in development mode by default
+
+- handy React utilities like [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html) and [Classnames](https://github.com/JedWatson/classnames#readme)
+
+- [Cypress](https://www.cypress.io/) for integration and functional tests
+
+- [Majestic](https://github.com/Raathigesh/majestic#readme), a beautiful browser-based UI for your test runner for Jest
+
+- [ESLint](https://eslint.org/) and [StyleLint](https://stylelint.io/) configured for code consistency and many good practices
+
+- [Alex](https://github.com/get-alex/alex#readme) to catch insensitive, inconsiderate writing in your documentation
+
+- hassle-free interactive updates for dependencies via [npm-check](https://github.com/dylang/npm-check#readme)
 
 
 ## Contributing
