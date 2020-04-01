@@ -5,7 +5,15 @@ This is a rich template for [Create React App](https://github.com/facebook/creat
 
 ## Quick start
 
-TODO: How to create a new app with this template?
+```sh
+npx create-react-app my-app --template @bence.a.toth/cra-template
+
+cd my-app
+
+npm start
+```
+
+For more info, please check the [Create React App documentation](https://create-react-app.dev/docs/documentation-intro).
 
 
 ## What’s included?
