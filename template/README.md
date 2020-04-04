@@ -38,8 +38,10 @@ Launches Cypress in CI mode.
 
 Runs all linters sequentially.
 
+### `npm run eslint`
 
-### TODO: `npm run eslint`
+Runs [ESLint](https://eslint.org/) to lint all JavaScript code using [a rich configuration]().
+
 
 ### TODO: `npm run stylelint`
 
