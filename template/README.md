@@ -18,9 +18,11 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### TODO: `npm run test:coverage`
+### `npm run test:gui`
 
-### TODO: `npm run test:gui`
+Launches Jest [with a web UI](https://github.com/Raathigesh/majestic#readme).
+
+### TODO: `npm run test:coverage`
 
 ### TODO: `npm run cypress`
 
