@@ -50,8 +50,9 @@ Runs [StyleLint](https://stylelint.io/) to lint all CSS code.
 
 Runs [Alex](https://www.npmjs.com/package/alex) to check for insensitive and inconsiderate phrasing in your documentation.
 
+### `npm run update`
 
-### TODO: `npm run update`
+Runs [`npm-check`](https://github.com/dylang/npm-check#readme) for interactive package updates.
 
 ### `npm run build`
 
