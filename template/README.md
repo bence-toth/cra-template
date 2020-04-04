@@ -5,6 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+
 ### `npm start`
 
 Runs the app in the development mode.<br />
@@ -13,46 +14,57 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
+
 ### `npm test`
 
 Launches [Jest](https://jestjs.io/) in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+
 ### `npm run test:gui`
 
 Launches Jest [with a web UI](https://github.com/Raathigesh/majestic#readme).
+
 
 ### `npm run test:coverage`
 
 Runs Jest and generates coverage report.
 
+
 ### `npm run cypress`
 
 Launches the [Cypress](https://www.cypress.io/) web UI.
+
 
 ### `npm run cypress:ci`
 
 Launches Cypress in CI mode.
 
+
 ### `npm run lint`
 
 Runs all linters sequentially.
+
 
 ### `npm run eslint`
 
 Runs [ESLint](https://eslint.org/) to lint all JavaScript code using [a rich configuration]().
 
+
 ### `npm run stylelint`
 
 Runs [StyleLint](https://stylelint.io/) to lint all CSS code.
+
 
 ### `npm run proofread`
 
 Runs [Alex](https://www.npmjs.com/package/alex) to check for insensitive and inconsiderate phrasing in your documentation.
 
+
 ### `npm run update`
 
 Runs [`npm-check`](https://github.com/dylang/npm-check#readme) for interactive package updates.
+
 
 ### `npm run build`
 
@@ -63,6 +75,7 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
 
 ### `npm run eject`
 
@@ -81,25 +94,31 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
+
 ### Code Splitting
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
 
 ### Analyzing the Bundle Size
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
+
 ### Making a Progressive Web App
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
 
 ### Advanced Configuration
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
+
 ### Deployment
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
 
 ### `npm run build` fails to minify
 
