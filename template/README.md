@@ -30,9 +30,10 @@ Runs Jest and generates coverage report.
 
 Launches the [Cypress](https://www.cypress.io/) web UI.
 
-### TODO: `npm run cypress`
+### `npm run cypress:ci`
 
-### TODO: `npm run cypress:ci`
+Launches Cypress in CI mode.
+
 
 ### TODO: `npm run lint`
 
