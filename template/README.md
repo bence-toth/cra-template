@@ -46,8 +46,10 @@ Runs [ESLint](https://eslint.org/) to lint all JavaScript code using [a rich con
 
 Runs [StyleLint](https://stylelint.io/) to lint all CSS code.
 
+### `npm run proofread`
 
-### TODO: `npm run proofread`
+Runs [Alex](https://www.npmjs.com/package/alex) to check for insensitive and inconsiderate phrasing in your documentation.
+
 
 ### TODO: `npm run update`
 
