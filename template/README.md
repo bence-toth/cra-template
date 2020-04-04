@@ -22,7 +22,9 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 Launches Jest [with a web UI](https://github.com/Raathigesh/majestic#readme).
 
-### TODO: `npm run test:coverage`
+### `npm run test:coverage`
+
+Runs Jest and generates coverage report.
 
 ### TODO: `npm run cypress`
 
