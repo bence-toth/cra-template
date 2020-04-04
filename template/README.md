@@ -34,8 +34,10 @@ Launches the [Cypress](https://www.cypress.io/) web UI.
 
 Launches Cypress in CI mode.
 
+### `npm run lint`
 
-### TODO: `npm run lint`
+Runs all linters sequentially.
+
 
 ### TODO: `npm run eslint`
 
