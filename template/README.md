@@ -26,6 +26,10 @@ Launches Jest [with a web UI](https://github.com/Raathigesh/majestic#readme).
 
 Runs Jest and generates coverage report.
 
+### `npm run cypress`
+
+Launches the [Cypress](https://www.cypress.io/) web UI.
+
 ### TODO: `npm run cypress`
 
 ### TODO: `npm run cypress:ci`
