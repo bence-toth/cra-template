@@ -42,8 +42,10 @@ Runs all linters sequentially.
 
 Runs [ESLint](https://eslint.org/) to lint all JavaScript code using [a rich configuration]().
 
+### `npm run stylelint`
 
-### TODO: `npm run stylelint`
+Runs [StyleLint](https://stylelint.io/) to lint all CSS code.
+
 
 ### TODO: `npm run proofread`
 
