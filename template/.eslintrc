@@ -3,7 +3,9 @@
     "@bence.a.toth/eslint-config"
   ],
   "ignorePatterns": [
-    "coverage/"
+    "coverage/",
+    "build/",
+    "node_modules/"
   ],
   "overrides": [
     {
