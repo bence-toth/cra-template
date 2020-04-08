@@ -35,6 +35,21 @@ For more info, please check the [Create React App documentation](https://create-
 - hassle-free interactive updates for dependencies via [npm-check](https://github.com/dylang/npm-check#readme)
 
 
+## A note on development dependencies
+
+Create React App templates do not support adding development dependencies at the time of writing, so all dependencies are added under the `dependencies` key in the `package.json` file.
+
+It is [not necessary](https://github.com/facebook/create-react-app/issues/4342#issuecomment-383432122), but if you prefer, you can move the following dependencies from `dependences` to `devDependencies` manually:
+- `@bence.a.toth/eslint-config`
+- `alex`
+- `cypress`
+- `eslint`
+- `majestic`
+- `npm-check`
+- `stylelint`
+- `stylelint-config-standard`
+
+
 ## Contributing
 
 If something doesn’t work, please [file an issue](https://github.com/bence-toth/cra-template/issues).
