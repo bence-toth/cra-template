@@ -22,7 +22,7 @@ For more info, please check the [Create React App documentation](https://create-
 
 - HTTPS enabled in development mode by default
 
-- handy React utilities like [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html) and [Classnames](https://github.com/JedWatson/classnames#readme)
+- handy React utilities like [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html) and [ClassNames](https://github.com/JedWatson/classnames#readme)
 
 - [Cypress](https://www.cypress.io/) for integration and functional tests
 
