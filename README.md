@@ -18,11 +18,11 @@ For more info, please check the [Create React App documentation](https://create-
 
 ## What’s included?
 
-- everything you have in the default template, with a somewhat nicer folder structure
+- Everything you have in the default template, with a somewhat nicer folder structure
 
 - HTTPS enabled in development mode by default
 
-- handy React utilities like [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html) and [ClassNames](https://github.com/JedWatson/classnames#readme)
+- Handy React utilities like [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html) and [ClassNames](https://github.com/JedWatson/classnames#readme)
 
 - [Cypress](https://www.cypress.io/) for integration and functional tests
 
@@ -32,7 +32,7 @@ For more info, please check the [Create React App documentation](https://create-
 
 - [Alex](https://github.com/get-alex/alex#readme) to catch insensitive, inconsiderate writing in your documentation
 
-- hassle-free interactive updates for dependencies via [npm-check](https://github.com/dylang/npm-check#readme)
+- Hassle-free interactive updates for dependencies via [npm-check](https://github.com/dylang/npm-check#readme)
 
 
 ## A note on development dependencies
